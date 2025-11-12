@@ -38,9 +38,9 @@ export const collections = [
       photo: "/image/men-1.png"
     },
     items: [
-      "https://source.unsplash.com/LpbyDENbQQg",
-      "https://source.unsplash.com/pVoEPpLw818",
-      "https://source.unsplash.com/F56Y7dgrAkc",
+      "https://www.freepik.com/free-vector/hand-drawn-nft-style-ape-illustration_30576687.htm#fromView=keyword&page=1&position=14&uuid=430cdc5d-e68b-4ebb-b5d6-c997e1e7e18e&query=Nft",
+      "https://www.freepik.com/free-vector/hand-drawn-nft-style-ape-illustration_30576687.htm#fromView=keyword&page=1&position=14&uuid=430cdc5d-e68b-4ebb-b5d6-c997e1e7e18e&query=Nft",
+      "https://www.freepik.com/free-vector/hand-drawn-nft-style-ape-illustration_30576687.htm#fromView=keyword&page=1&position=14&uuid=430cdc5d-e68b-4ebb-b5d6-c997e1e7e18e&query=Nft",
       "https://source.unsplash.com/9anj7QWy-2g",
     ]
   },
