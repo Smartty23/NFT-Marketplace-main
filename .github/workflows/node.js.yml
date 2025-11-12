@@ -6,10 +6,11 @@ name: Node.js CI
 on:
   push:
     branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -19,12 +20,21 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm install
-    - run: npm run build
-    - run: chmod +x ./pm2_runner.sh
-    - run: bash ./pm2_runner.sh
+    
+    - name: Install dependencies
+      run: npm install
+    
+    - name: Build application
+      run: npm run build
+    
+    - name: Make PM2 runner executable
+      run: chmod +x ./pm2_runner.sh
+    
+    - name: Run PM2 deployment
+      run: bash ./pm2_runner.sh
