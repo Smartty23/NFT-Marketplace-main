@@ -9,7 +9,7 @@ function SellNFT() {
           <div className="flex flex-col gap-y-12 items-end">
             <div className="h-[180px] sm:h-[300px] relative">
               <Image
-                src="https://source.unsplash.com/6R1rq5yTl7g"
+                src="/image/nft/nft-13.jpg"
                 width={300}
                 height={300}
                 alt="nft"
@@ -25,7 +25,7 @@ function SellNFT() {
             </div>
             <div className="h-[140px] sm:h-[214px] relative">
               <Image
-                src="https://source.unsplash.com/NUZ9jhRs-as"
+                src="/image/nft/nft-14.jpg"
                 width={194}
                 height={214}
                 alt="nft"
@@ -43,7 +43,7 @@ function SellNFT() {
           <div>
             <div className="h-[160px] sm:h-[265px] relative">
               <Image
-                src="https://source.unsplash.com/c1rOy44wuts"
+                src="/image/nft/nft-15.jpg"
                 width={240}
                 height={265}
                 alt="nft"

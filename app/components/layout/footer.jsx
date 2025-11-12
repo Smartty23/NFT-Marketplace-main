@@ -11,12 +11,12 @@ export default function Footer() {
               aria-labelledby="footer-header"
             >
               <Link
-                aria-label="NFT logo"
+                aria-label="Gradsea.io logo"
                 aria-current="page"
-                className="text-2xl font-bold text-black font-integralcf"
+                className="text-2xl font-bold text-primary font-integralcf"
                 href="/"
               >
-                <span>NFters</span>
+                <span>Gradsea.io</span>
               </Link>
               <p className="mt-6">
                 The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.
@@ -194,7 +194,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-[#F4F4F4] pt-4 pb-6 flex justify-center">
-          <p className="text-sm text-[#A4A4A4]">Copyright © 2023 NFters</p>
+          <p className="text-sm text-[#A4A4A4]">Copyright © 2024 Gradsea.io</p>
         </div>
       </div>
     </footer>

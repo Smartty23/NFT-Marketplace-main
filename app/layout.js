@@ -17,8 +17,8 @@ const dm_sans = DM_Sans({
 });
 
 export const metadata = {
-  title: 'NFT Marketplaces.',
-  description: 'Sell and buy your NFTs token in this platform.',
+  title: 'Gradsea.io - NFT Marketplace',
+  description: 'Gradsea.io - The premier NFT marketplace. Sell and buy your NFTs token on our platform.',
 };
 
 export default function RootLayout({ children }) {

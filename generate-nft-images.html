@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate NFT Placeholder Images</title>
+</head>
+<body>
+    <h1>NFT Image Generator</h1>
+    <p>Click the button to generate and download 12 NFT placeholder images</p>
+    <button onclick="generateAllImages()">Generate All Images</button>
+    <div id="canvases"></div>
+
+    <script>
+        const colors = [
+            ['#FF6B6B', '#4ECDC4', '#45B7D1'],
+            ['#A8E6CF', '#FFD3B6', '#FFAAA5'],
+            ['#667EEA', '#764BA2', '#F093FB'],
+            ['#FA709A', '#FEE140', '#30CFD0'],
+            ['#4FACFE', '#00F2FE', '#43E97B'],
+            ['#FA8BFF', '#2BD2FF', '#2BFF88'],
+            ['#FF9A56', '#FF6A88', '#FFD26F'],
+            ['#A18CD1', '#FBC2EB', '#FAD0C4'],
+            ['#667EEA', '#764BA2', '#F093FB'],
+            ['#FFA07A', '#FF6347', '#FFD700'],
+            ['#20E2D7', '#F9FEA5', '#FF6B9D'],
+            ['#C471F5', '#FA71CD', '#FAD0C4']
+        ];
+
+        function generateImage(index) {
+            const canvas = document.createElement('canvas');
+            canvas.width = 800;
+            canvas.height = 800;
+            const ctx = canvas.getContext('2d');
+
+            // Background gradient
+            const gradient = ctx.createLinearGradient(0, 0, 800, 800);
+            const colorSet = colors[index % colors.length];
+            gradient.addColorStop(0, colorSet[0]);
+            gradient.addColorStop(0.5, colorSet[1]);
+            gradient.addColorStop(1, colorSet[2]);
+            
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 800, 800);
+
+            // Add some geometric shapes for NFT style
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
+            for (let i = 0; i < 5; i++) {
+                ctx.beginPath();
+                ctx.arc(
+                    Math.random() * 800,
+                    Math.random() * 800,
+                    Math.random() * 200 + 50,
+                    0,
+                    Math.PI * 2
+                );
+                ctx.fill();
+            }
+
+            // Add NFT text
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+            ctx.font = 'bold 120px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(`NFT #${index + 1}`, 400, 400);
+
+            return canvas;
+        }
+
+        function downloadImage(canvas, filename) {
+            canvas.toBlob(function(blob) {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                a.click();
+                URL.revokeObjectURL(url);
+            }, 'image/jpeg', 0.9);
+        }
+
+        function generateAllImages() {
+            const container = document.getElementById('canvases');
+            container.innerHTML = '';
+
+            for (let i = 0; i < 12; i++) {
+                const canvas = generateImage(i);
+                container.appendChild(canvas);
+                
+                // Download with delay to avoid browser blocking
+                setTimeout(() => {
+                    downloadImage(canvas, `nft-${i + 1}.jpg`);
+                }, i * 500);
+            }
+        }
+    </script>
+</body>
+</html>

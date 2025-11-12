@@ -17,7 +17,7 @@ function HeroSection() {
             Discover, and collect Digital Art  NFTs
           </h1>
           <p className="text-xl text-[#565656]">
-            Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.
+            Gradsea.io - Your digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.
           </p>
           <button className="py-4 px-12 rounded-full bg-primary text-center text-xl font-medium text-white shadow-lg shadow-blue-500/50 focus:outline-none focus:ring-4 focus:ring-blue-300 hover:shadow-none">
             Explore Now
@@ -40,7 +40,7 @@ function HeroSection() {
         <div className="justify-center order-1 hidden lg:flex lg:order-2">
 
           <div className="card-container relative mx-auto w-[18em] max-w-full min-h-[440px]">
-            <div className="card bg-[url(https://source.unsplash.com/E8Ufcyxz514)] card1 left-2/4 z-10 ml-[-13em] -translate-x-9 transition-all delay-100 duration-700 ease-[ease-out] relative">
+            <div className="card bg-[url(/image/nft/nft-16.jpg)] card1 left-2/4 z-10 ml-[-13em] -translate-x-9 transition-all delay-100 duration-700 ease-[ease-out] relative">
               <div className="h-full flex flex-col justify-between">
                 <div className="flex flex-col gap-2">
                   <p className='text-[28px] font-bold text-white'>
@@ -94,7 +94,7 @@ function HeroSection() {
               />
             </div>
 
-            <div className="card bg-[url(https://source.unsplash.com/pVoEPpLw818)] card2 left-2/4 z-[9] ml-[-12em] transition-all delay-[0.15s] duration-[0.5s] ease-[ease-out] scale-[0.9] relative">
+            <div className="card bg-[url(/image/nft/nft-17.jpg)] card2 left-2/4 z-[9] ml-[-12em] transition-all delay-[0.15s] duration-[0.5s] ease-[ease-out] scale-[0.9] relative">
               <div className="h-full flex flex-col justify-between">
                 <div className="flex flex-col gap-2">
                   <p className='text-[28px] font-bold text-white'>
@@ -147,7 +147,7 @@ function HeroSection() {
               />
             </div>
 
-            <div className="card bg-[url(https://source.unsplash.com/Tyg0rVhOTrE)] card3 left-2/4 z-[8] ml-[-11em] translate-x-9 transition-all duration-[0.5s] ease-[ease-out] scale-[0.8] relative">
+            <div className="card bg-[url(/image/nft/nft-1.jpg)] card3 left-2/4 z-[8] ml-[-11em] translate-x-9 transition-all duration-[0.5s] ease-[ease-out] scale-[0.8] relative">
               <div className="h-full flex flex-col justify-between">
                 <div className="flex flex-col gap-2">
                   <p className='text-[28px] font-bold text-white'>

@@ -8,10 +8,10 @@ export const collections = [
       photo: "/image/men-1.png"
     },
     items: [
-      "https://source.unsplash.com/9anj7QWy-2g",
-      "https://source.unsplash.com/pVoEPpLw818",
-      "https://source.unsplash.com/LpbyDENbQQg",
-      "https://source.unsplash.com/F56Y7dgrAkc",
+      "/image/nft/nft-1.jpg",
+      "/image/nft/nft-2.jpg",
+      "/image/nft/nft-3.jpg",
+      "/image/nft/nft-4.jpg",
     ]
   },
   {
@@ -23,10 +23,10 @@ export const collections = [
       photo: "/image/men-2.webp"
     },
     items: [
-      "https://source.unsplash.com/pVoEPpLw818",
-      "https://source.unsplash.com/F56Y7dgrAkc",
-      "https://source.unsplash.com/LpbyDENbQQg",
-      "https://source.unsplash.com/9anj7QWy-2g",
+      "/image/nft/nft-5.jpg",
+      "/image/nft/nft-6.jpg",
+      "/image/nft/nft-7.jpg",
+      "/image/nft/nft-8.jpg",
     ]
   },
   {
@@ -38,10 +38,10 @@ export const collections = [
       photo: "/image/men-1.png"
     },
     items: [
-      "https://www.freepik.com/free-vector/hand-drawn-nft-style-ape-illustration_30576687.htm#fromView=keyword&page=1&position=14&uuid=430cdc5d-e68b-4ebb-b5d6-c997e1e7e18e&query=Nft",
-      "https://www.freepik.com/free-vector/hand-drawn-nft-style-ape-illustration_30576687.htm#fromView=keyword&page=1&position=14&uuid=430cdc5d-e68b-4ebb-b5d6-c997e1e7e18e&query=Nft",
-      "https://www.freepik.com/free-vector/hand-drawn-nft-style-ape-illustration_30576687.htm#fromView=keyword&page=1&position=14&uuid=430cdc5d-e68b-4ebb-b5d6-c997e1e7e18e&query=Nft",
-      "https://source.unsplash.com/9anj7QWy-2g",
+      "/image/nft/nft-9.jpg",
+      "/image/nft/nft-10.jpg",
+      "/image/nft/nft-11.jpg",
+      "/image/nft/nft-12.jpg",
     ]
   },
 ]

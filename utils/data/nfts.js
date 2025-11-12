@@ -2,7 +2,7 @@ export const nfts = [
   {
     id: 1,
     title: "ArtCrypto",
-    thumbnail: "https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=800&q=80",
+    thumbnail: "/image/nft/nft-1.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -17,7 +17,7 @@ export const nfts = [
   {
     id: 2,
     title: "This NFT",
-    thumbnail: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=800&q=80",
+    thumbnail: "/image/nft/nft-2.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -32,7 +32,7 @@ export const nfts = [
   {
     id: 3,
     title: "NameCrypto",
-    thumbnail: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80",
+    thumbnail: "/image/nft/nft-3.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -47,7 +47,7 @@ export const nfts = [
   {
     id: 4,
     title: "ArtCrypto",
-    thumbnail: "https://images.unsplash.com/photo-1635322966219-b75ed372eb01?w=800&q=80",
+    thumbnail: "/image/nft/nft-4.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -62,7 +62,7 @@ export const nfts = [
   {
     id: 5,
     title: "This NFT",
-    thumbnail: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80",
+    thumbnail: "/image/nft/nft-5.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -77,7 +77,7 @@ export const nfts = [
   {
     id: 6,
     title: "NameCrypto",
-    thumbnail: "https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=800&q=80",
+    thumbnail: "/image/nft/nft-6.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -92,7 +92,7 @@ export const nfts = [
   {
     id: 7,
     title: "ArtCrypto",
-    thumbnail: "https://images.unsplash.com/photo-1643101809204-6fb869816dbe?w=800&q=80",
+    thumbnail: "/image/nft/nft-7.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -107,7 +107,7 @@ export const nfts = [
   {
     id: 8,
     title: "Wallcrypt",
-    thumbnail: "https://images.unsplash.com/photo-1640340434855-6084b1f4901c?w=800&q=80",
+    thumbnail: "/image/nft/nft-8.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -122,7 +122,7 @@ export const nfts = [
   {
     id: 9,
     title: "ArtCrypto",
-    thumbnail: "https://images.unsplash.com/photo-1644361566696-3d442b5b482a?w=800&q=80",
+    thumbnail: "/image/nft/nft-9.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -137,7 +137,7 @@ export const nfts = [
   {
     id: 10,
     title: "This NFT",
-    thumbnail: "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?w=800&q=80",
+    thumbnail: "/image/nft/nft-10.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -152,7 +152,7 @@ export const nfts = [
   {
     id: 11,
     title: "NameCrypto",
-    thumbnail: "https://images.unsplash.com/photo-1645731504814-f8b3e6c6e8e3?w=800&q=80",
+    thumbnail: "/image/nft/nft-11.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -167,7 +167,7 @@ export const nfts = [
   {
     id: 12,
     title: "ArtCrypto",
-    thumbnail: "https://images.unsplash.com/photo-1641931166631-1b3e0e5e8f5e?w=800&q=80",
+    thumbnail: "/image/nft/nft-12.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -182,7 +182,7 @@ export const nfts = [
   {
     id: 13,
     title: "ArtCrypto",
-    thumbnail: "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=800&q=80",
+    thumbnail: "/image/nft/nft-1.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -197,7 +197,7 @@ export const nfts = [
   {
     id: 14,
     title: "DigiArt",
-    thumbnail: "https://images.unsplash.com/photo-1643916861364-02e63ce3e52f?w=800&q=80",
+    thumbnail: "/image/nft/nft-2.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -212,7 +212,7 @@ export const nfts = [
   {
     id: 15,
     title: "Music Crypto",
-    thumbnail: "https://images.unsplash.com/photo-1644329901455-7c1e9e1c7e3e?w=800&q=80",
+    thumbnail: "/image/nft/nft-3.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
@@ -227,7 +227,7 @@ export const nfts = [
   {
     id: 16,
     title: "This NFT",
-    thumbnail: "https://images.unsplash.com/photo-1645731504814-f8b3e6c6e8e3?w=800&q=80",
+    thumbnail: "/image/nft/nft-4.jpg",
     price: 0.25,
     count: 321,
     time: "3h 50m 2s left",
