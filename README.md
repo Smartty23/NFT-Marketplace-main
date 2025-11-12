@@ -197,15 +197,13 @@ This project is open source and available under the [MIT License](LICENSE).
 - Tailwind CSS for the utility-first CSS framework
 - NFT community for inspiration
 
-## 📞 Contact
+## 📞 Contact (+234)8062923229
 
 For any inquiries or support, please reach out:
-- Email: your.email@example.com
-- Twitter: [@YourTwitter]
-- Discord: YourDiscord#0000
+- Email: abrahamche82@gmail.com
 
----
+
 
 ⭐ Star this repo if you find it helpful!
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by [smartty23]
